@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A20BE4AD-3CCF-4574-B6F2-0AEAE035AF02}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ditto.AsyncMvvm</RootNamespace>
+    <AssemblyName>Ditto.AsyncMvvm</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DocumentationFile>bin\Debug\Ditto.AsyncMvvm.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DocumentationFile>bin\Release\Ditto.AsyncMvvm.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Portable\AggregateTaskListener.cs">
+      <Link>AggregateTaskListener.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\AsyncBindableBase.cs">
+      <Link>AsyncBindableBase.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\AsyncHelperBase.cs">
+      <Link>AsyncHelperBase.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\AsyncPropertyHelper.cs">
+      <Link>AsyncPropertyHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\AsyncPropertyHelperBase.cs">
+      <Link>AsyncPropertyHelperBase.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\AsyncValidationHelper.cs">
+      <Link>AsyncValidationHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\BindableBase.cs">
+      <Link>BindableBase.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\IAsyncProperty.cs">
+      <Link>IAsyncProperty.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\IAsyncPropertyHelper.cs">
+      <Link>IAsyncPropertyHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\IAsyncValidationHelper.cs">
+      <Link>IAsyncValidationHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\ILazyProperty.cs">
+      <Link>ILazyProperty.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\Internal\AsyncProperty.cs">
+      <Link>Internal\AsyncProperty.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\Internal\LazyProperty.cs">
+      <Link>Internal\LazyProperty.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\Internal\PropertyBase.cs">
+      <Link>Internal\PropertyBase.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\Internal\PropertyDictionary.cs">
+      <Link>Internal\PropertyDictionary.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\Internal\PropertySupport.cs">
+      <Link>Internal\PropertySupport.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\IProperty.cs">
+      <Link>IProperty.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\ITaskListener.cs">
+      <Link>ITaskListener.cs</Link>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
