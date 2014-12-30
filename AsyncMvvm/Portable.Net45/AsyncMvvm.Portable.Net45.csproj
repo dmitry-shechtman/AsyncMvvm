@@ -38,6 +38,12 @@
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="..\..\Solution Items\CommonAssemblyInfo.cs">
+      <Link>Properties\CommonAssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\Net45\Properties\AssemblyInfo.cs">
+      <Link>Properties\AssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="..\Portable\AggregateTaskListener.cs">
       <Link>AggregateTaskListener.cs</Link>
     </Compile>
@@ -92,9 +98,6 @@
     </Compile>
     <Compile Include="..\Portable\ITaskListener.cs">
       <Link>ITaskListener.cs</Link>
-    </Compile>
-    <Compile Include="..\Portable\Properties\AssemblyInfo.cs">
-      <Link>Properties\AssemblyInfo.cs</Link>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />

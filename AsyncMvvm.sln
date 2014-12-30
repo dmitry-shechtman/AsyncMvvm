@@ -15,6 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncMvvm.Calculated.Portab
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{800CBE05-EA6B-417E-B3B5-44E018AFC912}"
 	ProjectSection(SolutionItems) = preProject
+		Solution Items\CommonAssemblyInfo.cs = Solution Items\CommonAssemblyInfo.cs
 		LICENSE = LICENSE
 		NOTICE = NOTICE
 	EndProjectSection
