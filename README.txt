@@ -6,6 +6,10 @@ Helpers for MVVM-friendly asynchronous operations.
 Usage
 -----
 
+### NuGet Package ###
+
+    Install-Package Ditto.AsyncMvvm
+
 ### Binding ###
 
 1. Derive your view model from `AsyncBindableBase`:
@@ -36,26 +40,26 @@ Usage
 2. Derive your view model from the corresponding `AsyncValidatableBindableBase`:
 
         class UniversalAnswerViewModel : AsyncValidatableBindableBase<string>
-		{
-		    private int _answer;
-		    public int Answer
-			{
-			    get { return _answer; }
-				set { SetProperty(ref _answer, value); }
-			}
-		}
+        {
+            private int _answer;
+            public int Answer
+            {
+                get { return _answer; }
+                set { SetProperty(ref _answer, value); }
+            }
+        }
 
 3. Override `GetErrorsAsync()`:
 
         protected override async Task<IEnumerable<string>> GetErrorsAsync(string propertyName)
-		{
-		    if (propertyName == "Answer")
-			{
+        {
+            if (propertyName == "Answer")
+            {
                 await Task.Delay(TimeSpan.FromDays(7500000 * 365.25));
-				if (Answer != 42)
-    			    yield return "Answer is wrong.";
-			}
-		}
+                if (Answer != 42)
+                    yield return "Answer is wrong.";
+            }
+        }
 
 Notice
 ------
@@ -78,3 +82,5 @@ Links
 
 * [Code](https://github.com/dmitry-shechtman/AsyncMvvm)
 * [Wiki](https://github.com/dmitry-shechtman/AsyncMvvm/wiki)
+* [Blog](https://shecht.wordpress.com/category/asyncmvvm/)
+* [NuGet](https://nuget.org/packages/Ditto.AsyncMvvm)
