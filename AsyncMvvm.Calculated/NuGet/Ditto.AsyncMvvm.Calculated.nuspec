@@ -1,0 +1,33 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Ditto.AsyncMvvm.Calculated</id>
+    <version>1.0.0</version>
+    <title>AsyncMVVM Calculated Properties integration</title>
+    <authors>Dmitry Shechtman</authors>
+    <owners>Dmitry Shechtman</owners>
+    <description>AsyncMVVM library Calculated Properties integration.</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <language>en-US</language>
+    <projectUrl>https://github.com/dmitry-shechtman/AsyncMvvm/</projectUrl>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <copyright>Copyright © Dmitry Shechtman 2014</copyright>
+    <tags>async await task binding validation MVVM AsyncMvvm calculated properties CalculatedProperties CalculatedAsyncPropertyHelper CalculatedAsyncBindableBase CalculatedAsyncValidatableBindableBase Ditto</tags>
+    <dependencies>
+      <group targetFramework=".NETPortable0.0-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10" />
+      <group targetFramework="Silverlight5.0">
+        <dependency id="Microsoft.Bcl.Async" version="1.0.168" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="AsyncMvvm.Calculated\Portable\bin\Release\Ditto.AsyncMvvm.Calculated.dll" target="lib\portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10" />
+    <file src="AsyncMvvm.Calculated\Portable\bin\Release\Ditto.AsyncMvvm.Calculated.xml" target="lib\portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10" />
+    <file src="AsyncMvvm.Calculated\Silverlight\bin\Release\Ditto.AsyncMvvm.Calculated.dll" target="lib\sl50" />
+    <file src="AsyncMvvm.Calculated\Silverlight\bin\Release\Ditto.AsyncMvvm.Calculated.xml" target="lib\sl50" />
+    <file src="AsyncMvvm.Calculated\README.txt" />
+    <file src="LICENSE" />
+    <file src="NOTICE" />
+  </files>
+</package>
