@@ -2,12 +2,12 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>Ditto.AsyncMvvm.Calculated</id>
-    <version>1.0.0</version>
+    <version>1.0.2</version>
     <title>AsyncMVVM Calculated Properties integration</title>
     <authors>Dmitry Shechtman</authors>
     <owners>Dmitry Shechtman</owners>
     <description>AsyncMVVM library Calculated Properties integration.</description>
-    <releaseNotes>Initial release</releaseNotes>
+    <releaseNotes>Fixed dependencies</releaseNotes>
     <language>en-US</language>
     <projectUrl>https://github.com/dmitry-shechtman/AsyncMvvm/</projectUrl>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
@@ -15,8 +15,13 @@
     <copyright>Copyright © Dmitry Shechtman 2014</copyright>
     <tags>async await task binding validation MVVM AsyncMvvm calculated properties CalculatedProperties CalculatedAsyncPropertyHelper CalculatedAsyncBindableBase CalculatedAsyncValidatableBindableBase Ditto</tags>
     <dependencies>
-      <group targetFramework=".NETPortable0.0-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10" />
+      <group targetFramework=".NETPortable0.0-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10">
+        <dependency id="Ditto.AsyncMvvm" version="1.0.0" />
+        <dependency id="Nito.CalculatedProperties" version="1.0.0" />
+      </group>
       <group targetFramework="Silverlight5.0">
+        <dependency id="Ditto.AsyncMvvm" version="1.0.0" />
+        <dependency id="Nito.CalculatedProperties" version="1.0.0" />
         <dependency id="Microsoft.Bcl.Async" version="1.0.168" />
       </group>
     </dependencies>
