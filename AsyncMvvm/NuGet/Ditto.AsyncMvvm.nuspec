@@ -29,7 +29,7 @@
     <file src="AsyncMvvm\Net45\bin\Release\Ditto.AsyncMvvm.xml" target="lib\net45" />
     <file src="AsyncMvvm\Silverlight\bin\Release\Ditto.AsyncMvvm.dll" target="lib\sl50" />
     <file src="AsyncMvvm\Silverlight\bin\Release\Ditto.AsyncMvvm.xml" target="lib\sl50" />
-    <file src="README.txt" />
+    <file src="AsyncMvvm\README.txt" />
     <file src="LICENSE" />
     <file src="NOTICE" />
   </files>

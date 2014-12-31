@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncMvvm.Calculated", "AsyncMvvm.Calculated\Portable\AsyncMvvm.Calculated.csproj", "{5D992E4B-C7BB-4631-A432-01F987760285}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncMvvm.Calculated.Silverlight", "AsyncMvvm.Calculated\Silverlight\AsyncMvvm.Calculated.Silverlight.csproj", "{8C7D687B-8DC5-44F1-B6D8-BB563B6DA1C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{800CBE05-EA6B-417E-B3B5-44E018AFC912}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\CommonAssemblyInfo.cs = Solution Items\CommonAssemblyInfo.cs
+		LICENSE = LICENSE
+		NOTICE = NOTICE
+		AsyncMvvm.Calculated\README.txt = AsyncMvvm.Calculated\README.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D992E4B-C7BB-4631-A432-01F987760285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D992E4B-C7BB-4631-A432-01F987760285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D992E4B-C7BB-4631-A432-01F987760285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D992E4B-C7BB-4631-A432-01F987760285}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C7D687B-8DC5-44F1-B6D8-BB563B6DA1C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C7D687B-8DC5-44F1-B6D8-BB563B6DA1C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C7D687B-8DC5-44F1-B6D8-BB563B6DA1C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C7D687B-8DC5-44F1-B6D8-BB563B6DA1C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

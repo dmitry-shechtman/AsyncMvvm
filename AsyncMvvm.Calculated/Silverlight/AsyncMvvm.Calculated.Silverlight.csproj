@@ -53,6 +53,9 @@
     <Reference Include="CalculatedProperties">
       <HintPath>..\..\packages\Nito.CalculatedProperties.1.0.0\lib\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+MonoTouch10\CalculatedProperties.dll</HintPath>
     </Reference>
+    <Reference Include="Ditto.AsyncMvvm">
+      <HintPath>..\..\packages\Ditto.AsyncMvvm.1.0.0\lib\sl50\Ditto.AsyncMvvm.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Threading.Tasks">
       <HintPath>..\..\packages\Microsoft.Bcl.Async.1.0.168\lib\sl4\Microsoft.Threading.Tasks.dll</HintPath>
     </Reference>
@@ -115,12 +118,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\AsyncMvvm\Silverlight\AsyncMvvm.Silverlight.csproj">
-      <Project>{7e3b08dd-1548-4b26-9a7d-feb4c7ef42c5}</Project>
-      <Name>AsyncMvvm.Silverlight</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
   <ProjectExtensions>

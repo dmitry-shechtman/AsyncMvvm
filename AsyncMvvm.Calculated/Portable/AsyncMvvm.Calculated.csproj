@@ -55,14 +55,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\AsyncMvvm\Portable\AsyncMvvm.csproj">
-      <Project>{d04341a1-9daf-4026-a8a2-168a9b14c075}</Project>
-      <Name>AsyncMvvm</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Reference Include="CalculatedProperties">
       <HintPath>..\..\packages\Nito.CalculatedProperties.1.0.0\lib\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+MonoTouch10\CalculatedProperties.dll</HintPath>
+    </Reference>
+    <Reference Include="Ditto.AsyncMvvm">
+      <HintPath>..\..\packages\Ditto.AsyncMvvm.1.0.0\lib\portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\Ditto.AsyncMvvm.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
