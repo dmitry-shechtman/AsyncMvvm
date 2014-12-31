@@ -6,65 +6,18 @@ Helpers for MVVM-friendly asynchronous operations.
 Usage
 -----
 
-### NuGet Package ###
+### AsyncMVVM ###
 
-    Install-Package Ditto.AsyncMvvm
+See [AsyncMvvm](AsyncMvvm).
 
-### Binding ###
+### AsyncMVVM/Calculated Properties ###
 
-1. Derive your view model from `AsyncBindableBase`:
-
-        class UniversalAnswerViewModel : AsyncBindableBase
-        {
-        }
-
-2. Implement the asynchronous method for calculating the value of the property:
-
-        private async Task<int?> GetAnswerAsync()
-        {
-            await Task.Delay(TimeSpan.FromDays(7500000 * 365.25));
-            return 42;
-        }
-
-3. Define the property:
-
-        public int? Answer
-        {
-            get { return Property.Get(GetAnswerAsync); }
-        }
-
-### Validation ###
-
-1. Determine the type of the validation error (e.g. `string`).
-
-2. Derive your view model from the corresponding `AsyncValidatableBindableBase`:
-
-        class UniversalAnswerViewModel : AsyncValidatableBindableBase<string>
-        {
-            private int _answer;
-            public int Answer
-            {
-                get { return _answer; }
-                set { SetProperty(ref _answer, value); }
-            }
-        }
-
-3. Override `GetErrorsAsync()`:
-
-        protected override async Task<IEnumerable<string>> GetErrorsAsync(string propertyName)
-        {
-            if (propertyName == "Answer")
-            {
-                await Task.Delay(TimeSpan.FromDays(7500000 * 365.25));
-                if (Answer != 42)
-                    yield return "Answer is wrong.";
-            }
-        }
+See [AsyncMvvm.Calculated](AsyncMvvm.Calculated).
 
 Notice
 ------
 
-   Copyright © Dmitry Shechtman 2014
+   Copyright Â© Dmitry Shechtman 2014
 
    Licensed under the Apache License, Version 2.0 (the "License").
 
