@@ -23,7 +23,7 @@ See [wiki](https://github.com/dmitry-shechtman/AsyncMvvm/wiki).
 Notice
 ------
 
-   Copyright © Dmitry Shechtman 2014
+   Copyright © Dmitry Shechtman 2014-2015
 
    Licensed under the Apache License, Version 2.0 (the "License").
 
