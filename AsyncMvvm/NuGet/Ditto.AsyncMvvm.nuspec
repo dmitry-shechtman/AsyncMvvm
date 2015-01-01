@@ -6,7 +6,21 @@
     <title>AsyncMVVM</title>
     <authors>Dmitry Shechtman</authors>
     <owners>Dmitry Shechtman</owners>
-    <description>Helpers for MVVM-friendly asynchronous operations.</description>
+    <summary>Helpers for MVVM-friendly asynchronous operations.</summary>
+    <description>
+Helpers for MVVM-friendly asynchronous operations.
+    
+Supported Platforms:
+
+* .NET Framework 4.5
+* Silverlight 5
+* Windows 8
+* Windows Phone Silverlight 8
+* Windows Phone 8.1
+* Xamarin.Android
+* Xamarin.iOS
+* Portable Class Libraries
+    </description>
     <releaseNotes>Initial release</releaseNotes>
     <language>en-US</language>
     <projectUrl>https://github.com/dmitry-shechtman/AsyncMvvm/</projectUrl>
