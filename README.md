@@ -1,4 +1,4 @@
-AsyncMvvm
+AsyncMVVM
 =========
 
 Helpers for MVVM-friendly asynchronous operations.
@@ -35,11 +35,3 @@ Notice
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
-
-Links
------
-
-* [Code](https://github.com/dmitry-shechtman/AsyncMvvm)
-* [Wiki](https://github.com/dmitry-shechtman/AsyncMvvm/wiki)
-* [Blog](https://shecht.wordpress.com/category/asyncmvvm/)
-* [NuGet](https://nuget.org/packages/Ditto.AsyncMvvm)
