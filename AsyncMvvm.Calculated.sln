@@ -15,6 +15,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		AsyncMvvm.Calculated\README.txt = AsyncMvvm.Calculated\README.txt
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{288A24BB-ADBA-459E-B579-B192ED47B7F9}"
+	ProjectSection(SolutionItems) = preProject
+		AsyncMvvm.Calculated\NuGet\Ditto.AsyncMvvm.Calculated.nuspec = AsyncMvvm.Calculated\NuGet\Ditto.AsyncMvvm.Calculated.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,5 +37,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{288A24BB-ADBA-459E-B579-B192ED47B7F9} = {800CBE05-EA6B-417E-B3B5-44E018AFC912}
 	EndGlobalSection
 EndGlobal
