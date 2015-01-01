@@ -1,4 +1,4 @@
-AsyncMvvm
+AsyncMVVM
 =========
 
 Helpers for MVVM-friendly asynchronous operations.
@@ -13,6 +13,8 @@ Usage
 ### Binding ###
 
 1. Derive your view model from `AsyncBindableBase`:
+
+        using Ditto.AsyncMvvm;
 
         class UniversalAnswerViewModel : AsyncBindableBase
         {

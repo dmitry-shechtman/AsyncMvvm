@@ -1,5 +1,5 @@
-AsyncMvvm.Calculated
-====================
+AsyncMVVM Calculated Properties integration
+===========================================
 
 AsyncMVVM library Calculated Properties integration.
 
@@ -13,6 +13,8 @@ Usage
 ### Binding ###
 
 1. Derive your view model from `CalculatedAsyncBindableBase`:
+
+        using Ditto.AsyncMvvm.Caclulated;
 
         class UniversalAnswerViewModel : CalculatedAsyncBindableBase
         {
