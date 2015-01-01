@@ -41,6 +41,8 @@ Usage
 
 2. Derive your view model from the corresponding `CalculatedAsyncValidatableBindableBase`:
 
+        using Ditto.AsyncMvvm.Caclulated;
+
         class UniversalAnswerViewModel : CalculatedAsyncValidatableBindableBase<string>
         {
             private int _answer;
