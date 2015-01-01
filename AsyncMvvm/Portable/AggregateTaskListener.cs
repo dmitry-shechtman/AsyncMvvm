@@ -11,7 +11,7 @@ namespace Ditto.AsyncMvvm
         /// <summary>
         /// An empty task listener instance.
         /// </summary>
-        public static AggregateTaskListener Empty = new AggregateTaskListener();
+        public static readonly AggregateTaskListener Empty = new AggregateTaskListener();
 
         private readonly IEnumerable<ITaskListener> _listeners;
 
