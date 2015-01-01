@@ -6,7 +6,21 @@
     <title>AsyncMVVM Calculated Properties integration</title>
     <authors>Dmitry Shechtman</authors>
     <owners>Dmitry Shechtman</owners>
-    <description>AsyncMVVM library Calculated Properties integration.</description>
+    <summary>AsyncMVVM library Calculated Properties integration.</summary>
+    <description>
+AsyncMVVM library Calculated Properties integration.
+    
+Supported Platforms:
+
+* .NET Framework 4.5
+* Silverlight 5
+* Windows 8
+* Windows Phone Silverlight 8
+* Windows Phone 8.1
+* Xamarin.Android
+* Xamarin.iOS
+* Portable Class Libraries
+    </description>
     <releaseNotes>Consolidated dependencies</releaseNotes>
     <language>en-US</language>
     <projectUrl>https://github.com/dmitry-shechtman/AsyncMvvm/</projectUrl>
