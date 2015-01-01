@@ -3,16 +3,22 @@ AsyncMvvm
 
 Helpers for MVVM-friendly asynchronous operations.
 
+Supported Platforms
+-------------------
+
+* .NET Framework 4.5
+* Silverlight 5
+* Windows 8
+* Windows Phone Silverlight 8
+* Windows Phone 8.1
+* Xamarin.Android
+* Xamarin.iOS
+* Portable Class Libraries
+
 Usage
 -----
 
-### AsyncMVVM ###
-
-See [AsyncMvvm](AsyncMvvm).
-
-### AsyncMVVM/Calculated Properties ###
-
-See [AsyncMvvm.Calculated](AsyncMvvm.Calculated).
+See [wiki](https://github.com/dmitry-shechtman/AsyncMvvm/wiki).
 
 Notice
 ------
