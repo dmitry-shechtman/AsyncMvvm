@@ -1,5 +1,9 @@
 ﻿{
   "frameworks": {
     ".NETPortable,Version=v4.5,Profile=Profile259": {}
+  },
+  "dependencies": {
+    "Ditto.AsyncMvvm": "1.0.0",
+    "Nito.CalculatedProperties": "1.0.0"
   }
 }
