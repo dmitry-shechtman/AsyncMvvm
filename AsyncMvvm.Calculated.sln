@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncMvvm.Calculated", "AsyncMvvm.Calculated\Portable\AsyncMvvm.Calculated.csproj", "{5D992E4B-C7BB-4631-A432-01F987760285}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncMvvm.Calculated.Portable", "AsyncMvvm.Calculated\Portable\AsyncMvvm.Calculated.Portable.csproj", "{5D992E4B-C7BB-4631-A432-01F987760285}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncMvvm.Calculated.Silverlight", "AsyncMvvm.Calculated\Silverlight\AsyncMvvm.Calculated.Silverlight.csproj", "{8C7D687B-8DC5-44F1-B6D8-BB563B6DA1C2}"
 EndProject
@@ -20,7 +20,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{288A24BB
 		AsyncMvvm.Calculated\NuGet\Ditto.AsyncMvvm.Calculated.nuspec = AsyncMvvm.Calculated\NuGet\Ditto.AsyncMvvm.Calculated.nuspec
 	EndProjectSection
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "AsyncMvvm.Calculated.Shared", "AsyncMvvm.Calculated\Shared\AsyncMvvm.Calculated.Shared.shproj", "{0351207E-6B78-4344-833F-6029B31B16D0}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		AsyncMvvm.Calculated\Shared\AsyncMvvm.Calculated.Shared.projitems*{0351207e-6b78-4344-833f-6029b31b16d0}*SharedItemsImports = 13
+		AsyncMvvm.Calculated\Shared\AsyncMvvm.Calculated.Shared.projitems*{5d992e4b-c7bb-4631-a432-01f987760285}*SharedItemsImports = 4
+		AsyncMvvm.Calculated\Shared\AsyncMvvm.Calculated.Shared.projitems*{8c7d687b-8dc5-44f1-b6d8-bb563b6da1c2}*SharedItemsImports = 4
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU

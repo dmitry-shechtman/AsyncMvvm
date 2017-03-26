@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>0351207e-6b78-4344-833f-6029b31b16d0</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>AsyncMvvm.Calculated.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)CalculatedAsyncBindableBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CalculatedAsyncPropertyHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CalculatedAsyncValidatableBindableBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ICalculatedAsyncPropertyHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\AsyncTriggerProperty.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\ITriggerProperty.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\LazyTriggerProperty.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\TriggerPropertyBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+</Project>
