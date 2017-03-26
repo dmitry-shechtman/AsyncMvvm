@@ -41,32 +41,12 @@
     <Compile Include="..\..\Solution Items\CommonAssemblyInfo.cs">
       <Link>Properties\CommonAssemblyInfo.cs</Link>
     </Compile>
-    <Compile Include="AggregateTaskListener.cs" />
-    <Compile Include="AsyncBindableBase.cs" />
-    <Compile Include="AsyncHelperBase.cs" />
-    <Compile Include="AsyncPropertyHelperBase.cs" />
-    <Compile Include="AsyncValidatableBindableBase.cs" />
-    <Compile Include="AsyncValidationHelper.cs" />
-    <Compile Include="IAsyncProperty.cs" />
-    <Compile Include="IAsyncPropertyHelper.cs" />
-    <Compile Include="IAsyncValidationHelper.cs" />
-    <Compile Include="ILazyProperty.cs" />
-    <Compile Include="Internal\AsyncProperty.cs" />
-    <Compile Include="AsyncPropertyHelper.cs" />
-    <Compile Include="BindableBase.cs" />
     <Compile Include="Internal\PropertyExtensions.cs" />
-    <Compile Include="IProperty.cs" />
-    <Compile Include="ITaskListener.cs" />
-    <Compile Include="Internal\LazyProperty.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Internal\PropertyBase.cs" />
-    <Compile Include="Internal\PropertyDictionary.cs" />
-    <Compile Include="Internal\PropertySupport.cs" />
-    <Compile Include="ValidatableBindableBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="project.json" />
   </ItemGroup>
+  <Import Project="..\Shared\AsyncMvvm.Shared.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

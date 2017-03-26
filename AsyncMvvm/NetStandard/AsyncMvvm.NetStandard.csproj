@@ -46,73 +46,11 @@
     <Compile Include="..\..\Solution Items\CommonAssemblyInfo.cs">
       <Link>Properties\CommonAssemblyInfo.cs</Link>
     </Compile>
-    <Compile Include="..\Portable\AggregateTaskListener.cs">
-      <Link>AggregateTaskListener.cs</Link>
-    </Compile>
-    <Compile Include="..\Portable\AsyncBindableBase.cs">
-      <Link>AsyncBindableBase.cs</Link>
-    </Compile>
-    <Compile Include="..\Portable\AsyncHelperBase.cs">
-      <Link>AsyncHelperBase.cs</Link>
-    </Compile>
-    <Compile Include="..\Portable\AsyncPropertyHelper.cs">
-      <Link>AsyncPropertyHelper.cs</Link>
-    </Compile>
-    <Compile Include="..\Portable\AsyncPropertyHelperBase.cs">
-      <Link>AsyncPropertyHelperBase.cs</Link>
-    </Compile>
-    <Compile Include="..\Portable\AsyncValidatableBindableBase.cs">
-      <Link>AsyncValidatableBindableBase.cs</Link>
-    </Compile>
-    <Compile Include="..\Portable\AsyncValidationHelper.cs">
-      <Link>AsyncValidationHelper.cs</Link>
-    </Compile>
-    <Compile Include="..\Portable\BindableBase.cs">
-      <Link>BindableBase.cs</Link>
-    </Compile>
-    <Compile Include="..\Portable\IAsyncProperty.cs">
-      <Link>IAsyncProperty.cs</Link>
-    </Compile>
-    <Compile Include="..\Portable\IAsyncPropertyHelper.cs">
-      <Link>IAsyncPropertyHelper.cs</Link>
-    </Compile>
-    <Compile Include="..\Portable\IAsyncValidationHelper.cs">
-      <Link>IAsyncValidationHelper.cs</Link>
-    </Compile>
-    <Compile Include="..\Portable\ILazyProperty.cs">
-      <Link>ILazyProperty.cs</Link>
-    </Compile>
-    <Compile Include="..\Portable\Internal\AsyncProperty.cs">
-      <Link>Internal\AsyncProperty.cs</Link>
-    </Compile>
-    <Compile Include="..\Portable\Internal\LazyProperty.cs">
-      <Link>Internal\LazyProperty.cs</Link>
-    </Compile>
-    <Compile Include="..\Portable\Internal\PropertyBase.cs">
-      <Link>Internal\PropertyBase.cs</Link>
-    </Compile>
-    <Compile Include="..\Portable\Internal\PropertyDictionary.cs">
-      <Link>Internal\PropertyDictionary.cs</Link>
-    </Compile>
     <Compile Include="..\Portable\Internal\PropertyExtensions.cs">
       <Link>Internal\PropertyExtensions.cs</Link>
     </Compile>
-    <Compile Include="..\Portable\Internal\PropertySupport.cs">
-      <Link>Internal\PropertySupport.cs</Link>
-    </Compile>
-    <Compile Include="..\Portable\IProperty.cs">
-      <Link>IProperty.cs</Link>
-    </Compile>
-    <Compile Include="..\Portable\ITaskListener.cs">
-      <Link>ITaskListener.cs</Link>
-    </Compile>
-    <Compile Include="..\Portable\Properties\AssemblyInfo.cs">
-      <Link>Properties\AssemblyInfo.cs</Link>
-    </Compile>
-    <Compile Include="..\Portable\ValidatableBindableBase.cs">
-      <Link>ValidatableBindableBase.cs</Link>
-    </Compile>
   </ItemGroup>
+  <Import Project="..\Shared\AsyncMvvm.Shared.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
