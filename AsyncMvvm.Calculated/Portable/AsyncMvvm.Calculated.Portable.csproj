@@ -41,18 +41,10 @@
     <Compile Include="..\..\Solution Items\CommonAssemblyInfo.cs">
       <Link>Properties\CommonAssemblyInfo.cs</Link>
     </Compile>
-    <Compile Include="CalculatedAsyncValidatableBindableBase.cs" />
-    <Compile Include="CalculatedAsyncBindableBase.cs" />
-    <Compile Include="CalculatedAsyncPropertyHelper.cs" />
-    <Compile Include="ICalculatedAsyncPropertyHelper.cs" />
-    <Compile Include="Internal\AsyncTriggerProperty.cs" />
-    <Compile Include="Internal\ITriggerProperty.cs" />
-    <Compile Include="Internal\LazyTriggerProperty.cs" />
-    <Compile Include="Internal\TriggerPropertyBase.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="CalculatedProperties">

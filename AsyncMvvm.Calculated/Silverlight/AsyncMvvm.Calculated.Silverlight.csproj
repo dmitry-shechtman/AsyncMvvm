@@ -88,33 +88,6 @@
     <Compile Include="..\..\Solution Items\CommonAssemblyInfo.cs">
       <Link>Properties\CommonAssemblyInfo.cs</Link>
     </Compile>
-    <Compile Include="..\Portable\CalculatedAsyncBindableBase.cs">
-      <Link>CalculatedAsyncBindableBase.cs</Link>
-    </Compile>
-    <Compile Include="..\Portable\CalculatedAsyncPropertyHelper.cs">
-      <Link>CalculatedAsyncPropertyHelper.cs</Link>
-    </Compile>
-    <Compile Include="..\Portable\CalculatedAsyncValidatableBindableBase.cs">
-      <Link>CalculatedAsyncValidatableBindableBase.cs</Link>
-    </Compile>
-    <Compile Include="..\Portable\ICalculatedAsyncPropertyHelper.cs">
-      <Link>ICalculatedAsyncPropertyHelper.cs</Link>
-    </Compile>
-    <Compile Include="..\Portable\Internal\AsyncTriggerProperty.cs">
-      <Link>Internal\AsyncTriggerProperty.cs</Link>
-    </Compile>
-    <Compile Include="..\Portable\Internal\ITriggerProperty.cs">
-      <Link>Internal\ITriggerProperty.cs</Link>
-    </Compile>
-    <Compile Include="..\Portable\Internal\LazyTriggerProperty.cs">
-      <Link>Internal\LazyTriggerProperty.cs</Link>
-    </Compile>
-    <Compile Include="..\Portable\Internal\TriggerPropertyBase.cs">
-      <Link>Internal\TriggerPropertyBase.cs</Link>
-    </Compile>
-    <Compile Include="..\Portable\Properties\AssemblyInfo.cs">
-      <Link>Properties\AssemblyInfo.cs</Link>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
