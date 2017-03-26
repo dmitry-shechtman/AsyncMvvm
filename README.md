@@ -7,12 +7,14 @@ Supported Platforms
 -------------------
 
 * .NET Framework 4.5
+* .NET Core 1.0
 * Silverlight 5
 * Windows 8
 * Windows Phone Silverlight 8
 * Windows Phone 8.1
 * Xamarin.Android
 * Xamarin.iOS
+* .NET Standard 1.0
 * Portable Class Libraries
 
 Usage
